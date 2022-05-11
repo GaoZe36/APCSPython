@@ -6,7 +6,7 @@ def print2DArray():
   for x in range(n):
     print(array[x],"\n")
 
-def findSum():
+def findSum(array):
   sum = 0
   for i in range (n):
     for j in range (n):
@@ -14,4 +14,4 @@ def findSum():
   return sum
 
 print2DArray()
-print(findSum())
+print(findSum(array))
